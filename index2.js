@@ -1,5 +1,5 @@
 const guerreros=[]; //arreglo permite guardar muchas cosas como objetos
-const razas=["Normal","fino", "calle","Dixchell", "d mariana", "D sara"];
+const razas=["Normal","fino", "calle","Popular", "d mariana", "D sara"];
 
 const asesinar=async function(){ //async para decir q es una promesa
    const idGuerrero=this.idGuerrero;  // console.log(idGuerrero); //me muestra que id soyxd
@@ -17,7 +17,7 @@ const asesinar=async function(){ //async para decir q es una promesa
          //la persona quiere eliminar apreto sii
          guerreros.splice(idGuerrero,1);
          cargarTabla();
-         Swal.fire("Michi eliminado", "todo destruido","success");
+         Swal.fire("Michi Eliminado exitosamente", "todo destruido","success");
 
      }
  };
